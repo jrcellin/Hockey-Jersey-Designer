@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+    <link rel="stylesheet" href="Hockey.css">
+    <script src="hockey2.js"></script>
+  </head>
+
+  <body onload="Object('price',0)">
+    <div class="nav">
+      <div class="container">
+        <ul class="pull-left">
+          <li><a href="PageOne.html">Home</a></li>
+          <li><a href="PageTwo.html"><span>1) Front Logo</span></a></li>
+	  <li><a href="PageThree.html">2) Back Numbers</a></li>
+	  <li><a href="PageFour.html">3) Sleeve Numbers</a></li>
+	  <li><a href="PageFive.html">4) Back Names</a></li>
+	  <li><a href="Submit.html">Submit</a></li>
+        </ul>
+        <ul class="pull-right">
+          <li><a href="#">Help</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="Header">
+      <div class="container">
+	<div class="pull-left">
+	  <li><h1>Front Logo</h1></li>
+	</div>
+	<ul class="pull-right">
+	  <a href="PageOne.html"><li>Previous</li></a>
+	  <a id="continue" href="PageThree.html" onclick=""><li>Continue</li></a>
+	</ul>
+      </div>
+    </div>
+    
+
+    <div id="jerseys"class="hockey-chooices">
+      <div class="container">
+    <div id="right" class="col-md-3" >
+	<div id="pic" class="thumbnail">
+	  <img src="Front Logo.jpg">
+	</div>
+    </div>	
+	<div class="Price" >
+	    <h4>Price Per Jersey</h4>
+	    <input id="price" type="text">
+	</div>
+
+        <div class="col-lg-9">
+
+            <div class="Options">
+    
+	      <h1><input type="radio" name="1" value"0.00" onclick="save(this.value)" checked> No Front Logo</h1>    
+	    </div>
+	    <div class="Options">
+	      <h1>Front Logo Printed Directly On Jersey</h1>
+	      <table class="tab">
+		<tr>
+		<td><input type="radio" name="1" value="5.00" onclick="save(this.value)"> 1 Color Print $5.00</td>
+		<td><input type="radio" name="1" value="8.00"onclick="save(this.value)"> 2 Color Print $8.00</td>
+		<td><input type="radio" name="1" value="11.00"onclick="save(this.value)"> 3 Color Print $11.00</td>
+		</tr>
+	      </table>
+	    </div>
+	    <div class="Options">
+	      <h1>Front Logo Printed On Twill Crest</h1>
+	      <table class="tab">
+		<tr>
+		<td><input type="radio" name="1" value="12.00" onclick="save(this.value)"> 1 Color Print $12.00</td>
+		<td><input type="radio" name="1" value="15.00" onclick="save(this.value)"> 2 Color Print $15.00</td>
+		<td><input type="radio" name="1" value="18.00" onclick="save(this.value)"> 3 Color Print $18.00</td>
+		<td><input type="radio" name="1" value="20.00" onclick="save(this.value)"> Sublimation $20.00</td>
+		</tr>
+	      </table>
+	    </div>
+	    <div class="Options">
+	      <h1>Front Sewn Twill Lettering</h1>
+	      <table class="tab">
+		<tr>
+		<td><input type="radio" name="1" value="17.00" onclick="save(this.value)"> 1 Color Twill $17.00</td>
+		<td><input type="radio" name="1" value="25.00" onclick="save(this.value)"> 2 Color Twill $25.00</td>
+		<td><input type="radio" name="1" value="35.00" onclick="save(this.value)"> 3 Color Twill $35.00</td>
+		</tr>
+	      </table>
+	    </div>
+	    
+        </div>
+    </div>
+</div>  
+
+  </body>
+
+</html>
