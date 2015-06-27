@@ -1,0 +1,162 @@
+.nav a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav span{
+  color:#930000;
+}
+
+.nav li {
+  display: inline;
+}
+
+.Header {
+  height: 50px;
+  background-color:#29A3CC;
+  border: 1px solid #2182A3;
+  }
+  
+.Header h1 {
+  color:white;
+}
+  
+.Header .container {
+  position: relative;
+  top:-15px;
+}
+
+.Header li {
+  display: inline;
+
+}
+
+.Header a {
+  color:white;
+  font-size:24px;
+  padding:14px 10px;
+  position: relative;
+  top:22px;
+}
+
+.tab td{
+  padding:10px;
+}
+
+#pic {
+  clear: both;
+}
+.Price {
+  background-color:red;
+  position:relative;
+  right:25px;
+  Height:100px;
+  width:180px;
+  float:right;
+  clear:right;
+  padding:10px;
+  
+}
+.Price h4 {
+  font-size:20px;
+  text-algin:center;
+  color:black;
+}
+#right {
+  float:right;
+}
+#left{
+  float:left;
+}
+
+
+
+.Options {
+  background-color: #29A3CC;
+  border: 1px solid #2182A3;
+  margin: 10px 10px 10px -10px;
+  padding: 4px;
+  width: 75%
+}
+
+.Options h1 {
+  font-size:24px;
+  padding-left:10px;
+  font-weight: bold;
+
+}
+
+.Options  td {
+  color: white;
+  text-align:left;
+  font-family: Tahoma, sans-serif;
+  
+}
+
+
+.jumbotron {
+  background-image:url('http://hdwallpapersfit.com/wp-content/uploads/2015/03/ice-hockey-wallpaper.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.hockey-chooices {
+    background-color:#efefef;
+    border-bottom:1px solid #dbdbdb;
+}
+
+.hockey-chooices h2{
+    color:#393c3d;
+    font-size:24px;
+}
+
+.hockey-chooices p {
+    font-size:15px;
+    margin-bottom:13px;
+}
+
+.learn-more {
+  background-color: #f7f7f7;
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}
+
+#jerseys p {
+  text-align: center;
+  font-family: fantasy;
+  font-weight: bold;
+}
+
+
+span {
+  font-size:10px
+}
