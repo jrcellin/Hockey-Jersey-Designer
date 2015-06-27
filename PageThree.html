@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+    <link rel="stylesheet" href="Hockey.css">
+    <script src="hockey2.js"></script>
+  </head>
+
+  <body onload="ding()">
+    <div class="nav">
+      <div class="container">
+        <ul class="pull-left">
+          <li><a href="PageOne.html">Home</a></li>
+          <li><a href="PageTwo.html">1) Front Logo</a></li>
+	  <li><a href="PageThree.html"><span>2) Back Numbers</span></a></li>
+	  <li><a href="PageFour.html">3) Sleeve Numbers</a></li>
+	  <li><a href="PageFive.html">4) Back Names</a></li>
+	  <li><a href="Submit.html">Submit</a></li>
+        </ul>
+        <ul class="pull-right">
+          <li><a href="#">Help</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="Header">
+      <div class="container">
+	<div class="pull-left">
+	  <li><h1>Back Number</h1></li>
+	</div>
+	<ul class="pull-right">
+	  <a href="PageTwo.html"><li>Previous</li></a>
+	  <a href="PageFour.html"><li>Continue</li></a>
+	</ul>
+      </div>
+    </div>
+    
+
+    <div id="jerseys"class="hockey-chooices">
+      <div class="container">
+    <div id="right" class="col-md-3" >
+	<div id="pic" class="thumbnail">
+	  <img src="Back Number.jpg">
+	</div>
+    </div>	
+	<div id="price" class="Price">
+	    <h4>Price Per Jersey</h4>
+	    <input id="price2" type="text" name="Price">
+	</div>
+
+        <div class="col-lg-9">
+
+            <div class="Options">
+    
+	      <h1><input type="radio" name="1" value"0" checked> No Back Numbers</h1>    
+	    </div>
+	    <div class="Options">
+	      <h1>10" Stock Back Numbers</h1>
+	      <table class="tab">
+		<tr>
+		<td><input type="radio" name="1" value="5.00" onclick="save(this.value)"> 1 Color Film $5.00</td>
+		<td><input type="radio" name="1" value="10.00" onclick="save(this.value)"> 2 Color Film $10.00</td>
+		</tr>
+		<tr>
+		<td><input type="radio" name="1" value="8.00" onclick="save(this.value)"> 1 Color Twill $8.00</td>
+		<td><input type="radio" name="1" value="16.00" onclick="save(this.value)"> 2 Color Twill $16.00</td>
+		</tr>
+	      </table>
+	    </div>
+	    <div class="Options">
+	      <h1>Premium Back Numbers</h1>
+	      <table class="tab">
+		<tr>
+		<td><input type="radio" name="1" value="5"> 1 Color Film $7.00</td>
+		<td><input type="radio" name="1" value="6"> 2 Color Film $14.00</td>
+		</tr>
+		<tr>
+		<td><input type="radio" name="1" value="7"> 1 Color Twill $10.00</td>
+		<td><input type="radio" name="1" value="8"> 2 Color Twill $20.00</td>
+		</tr>
+	      </table>
+	    </div>
+	    
+        </div>
+    </div>
+</div>
+  </body>
+</html>
